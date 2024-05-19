@@ -32,7 +32,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={4} style={{ paddingBottom: 20 }}>
+            <Col style={{ maxWidth: 300, margin: "auto", marginBottom: 100 }}>
               <img
                 src={moi}
                 alt="home pic"
