@@ -26,37 +26,36 @@ function Presentation() {
               <i>
                 <b className="purple">Sidahmed </b>
               </i>
-              , j'ai 24 ans et je suis{" "}
+              , j'ai 25 ans et je suis{" "}
               <i>
                 <b className="purple">Développeur Web FullStack </b>
               </i>{" "}
-              passionné par la création des solutions web. <br /> <br />
+              passionné par la création des solutions web.
+              <br /> <br />
+              Au cours de mes <b className="purple">4 ans </b> en tant que
+              développeur Fullstack, j’ai travaillé sur des projets variés,
+              contribuant autant à l’optimisation des interfaces utilisateurs
+              qu’à la conception des APIs, des bases de données et des solutions
+              de déploiement, le tout dans un cadre{" "}
+              <i>
+                <b className="purple">Agile.</b>
+              </i>
+              <br />
+              Je me spécialise notamment dans les nouvelles technologies telles
+              que{" "}
+              <i>
+                <b className="purple">Cloud AWS, NodeJs, React et Angular. </b>
+              </i>
+              <br /> <br />
               Je suis à la recherche d'un{" "}
               <i>
                 <b className="purple">CDI</b>
               </i>{" "}
-              à partir du mois d'{""}
+              à partir du mois de{""}
               <i>
-                <b className="purple">octobre 2024.</b>
-              </i>
-              <br /> <br />
-              Fort de{" "}
-              <i>
-                <b className="purple">3 ans </b>
+                <b className="purple"> Novembre,</b>
               </i>{" "}
-              d'expérience en tant qu'alternant et détenteur d'un{" "}
-              <i>
-                <b className="purple">Master</b>
-              </i>{" "}
-              en développement web à l'université de Paris 8, j'ai acquis une expertise tant dans le
-              domaine du Front-end que du Back-end. Je me spécialise notamment
-              dans les nouvelles technologies telles que{" "}
-              <i>
-                <b className="purple">React, Angular, Cloud AWS et NodeJs.</b>
-              </i>
-              <br />
-              <br />
-              Je serai ravi de collaborer avec vous et je vous encourage à
+              et je serai ravi de collaborer avec vous et je vous encourage à
               explorer davantage mon site pour obtenir plus d'informations sur
               mon expertise qui pourraient vous intéresser !
             </p>

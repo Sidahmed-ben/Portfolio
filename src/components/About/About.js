@@ -8,6 +8,7 @@ import Database from "./Database";
 import Devops from "./Devops";
 import GestProj from "./GestProj";
 import FrontEnd from "./FrontEnd";
+import Cloud from "./Cloud";
 
 function About() {
   return (
@@ -31,6 +32,10 @@ function About() {
           <strong className="purple">Front</strong>End
         </h1>
         <FrontEnd />
+        <h1 className="project-heading">
+          <strong className="purple">Cloud </strong>
+        </h1>
+        <Cloud />
         <h1 className="project-heading">
           <strong className="purple">Dev</strong>Ops
         </h1>

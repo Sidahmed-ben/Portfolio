@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-
+import { SiRedux } from "react-icons/si";
 import { Icon } from "@iconify/react";
 
 function FrontEnd() {
@@ -22,6 +22,11 @@ function FrontEnd() {
         <Icon icon="mdi:bootstrap" width="60" height="60" />
         <p style={{ fontSize: "18px" }}> Bootstrap </p>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux style={{ width: "60px", height: "60px" }} />
+        <p style={{ fontSize: "18px" }}> Redux </p>
+      </Col>
+
     </Row>
   );
 }

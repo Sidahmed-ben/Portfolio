@@ -6,7 +6,7 @@ import pixt from "../../Assets/Projects/pixt.png";
 import fire from "../../Assets/Projects/fire.png";
 import film from "../../Assets/Projects/film.png";
 import c42 from "../../Assets/Projects/42c.png";
-import switchTo from "../../Assets/Projects/switch.png";
+import auto from "../../Assets/Projects/auto.png";
 
 function Projects() {
   return (
@@ -16,10 +16,36 @@ function Projects() {
         <h1 className="project-heading">
           Mes <strong className="purple">Contributions </strong> Récentes
         </h1>
-        {/* <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p> */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={auto}
+              isBlog={false}
+              isRea={false}
+              title="MON SPÉCIALISTE AUTO"
+              description="Plateforme de mise en relation entre les établissements automobiles (concessions, ateliers...) et les techniciens."
+              techno={[
+                "TypeScript",
+                "React",
+                "Material UI",
+                "AgGrid",
+                "Node.js (Express)",
+                "MongoDB",
+                "AWS S3",
+                "AWS Beanstalk",
+                "GitHub Actions",
+                "Playwright",
+              ]}
+              feat={[
+                "Développement et maintenance du Frontend et du Backend des applications destinées aux utilisateurs et aux administrateurs",
+                "Gestion server-side de données massives pour un affichage optimisé sur AgGrid",
+                "Automatisation des tests End-to-End et d’intégration avec Playwright",
+                "Déploiement sur AWS Beanstalk avec intégration de GitHub Actions pour le CI/CD",
+                "Gestion de projet en méthodologie Agile (Scrum) avec sprints et revues régulières",
+              ]}
+              demoLink="https://www.monspecialisteauto.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pixt}
@@ -40,67 +66,46 @@ function Projects() {
                 "Aws Rekognition",
               ]}
               feat={[
+                "Implémentation d’une architecture microservices",
                 "Intégration du service Amazon Opensearch pour la recherche d'images",
-                "Intégration du serivce Amazon Rekognition pour la détection automatique des labels des images",
+                "Intégration de Amazon SQS Queue consommée par une Lambda pour automatiser la compression des fichiers lors de leur upload",
+                "Intégration du service Amazon Rekognition pour la détection automatique des labels des images",
                 "Implémentation d'un système de like",
                 "Implémentation de la fonctionnalité compression d'image",
               ]}
               // ghLink="https://github.com/Sidahmed-ben/WattSport"
-              demoLink="https://pixt.42cloud.io/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={c42}
-              isBlog={false}
-              isRea={false}
-              title="42C"
-              description="C'est le site web officiel de l'entreprise 42 Consulting."
-              techno={[
+                demoLink="https://pixt.42cloud.io/"
+              />
+              </Col>
+              <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={c42}
+                isBlog={false}
+                isRea={false}
+                title="42C"
+                description="C'est le site web officiel de l'entreprise 42 Consulting."
+                techno={[
                 "TypeScript",
                 "React",
                 "Material UI",
                 "NestJS",
                 "MongoDB",
-              ]}
-              feat={[
+                ]}
+                feat={[
                 "Intégration de la page 'On parle de nous !' afin de présenter les actualités de l'entreprise",
-              ]}
+                "Optimisation des performances du site pour un meilleur temps de chargement",
+                "Mise en place d'une architecture modulaire avec NestJS pour une meilleure maintenabilité",
+                "Création de composants réutilisables avec Material UI",
+                "Gestion des données dynamiques avec MongoDB pour un contenu facilement modifiable",
+                ]}
               // ghLink="https://github.com/Sidahmed-ben/WattSport"
               demoLink="https://www.42c.fr/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={switchTo}
-              isBlog={false}
-              isRea={false}
-              title="SwitchToTwitch"
-              description="C'est un site web de régie vidéo permettant de gérer plusieurs flux vidéos entrants, d'alterner entre eux et d'insérer des fichiers vidéos et des images en direct."
-              techno={[
-                "Typescript",
-                "Python",
-                "React",
-                "Material UI",
-                "Aws Lambda",
-                "Aws MediaLive",
-                "Aws DynamoDB",
-              ]}
-              feat={[
-                "Implémentation de la fonctionnalité Upload/Delete des vidéos dans des buckets S3 en utilisant le 'Presigned Url'",
-                "Intégration du service Aws MediaLIve pour la diffusion en direct des flux vidéos",
-              ]}
-              // ghLink="https://github.com/Sidahmed-ben/WattSport"
-              demoLink="#"
             />
           </Col>
         </Row>
         <h1 className="project-heading">
           Mes <strong className="purple">Réalisations </strong> Récentes
         </h1>
-        {/* <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p> */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard

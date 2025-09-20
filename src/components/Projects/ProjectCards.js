@@ -22,18 +22,18 @@ function ProjectCards(props) {
           {props.description}
           <br></br>
           <br></br>
-          <strong className="purple">Technos : </strong>
-          {props.techno &&
-            props.techno.map((tech, index) => (
-              <span key={index}>{tech}, </span>
-            ))}
-          <br></br>
-          <br></br>
           <strong className="purple">
             {props.isRea ? "Réalisations : " : "Contributions : "}
           </strong>
           {props.feat &&
             props.feat.map((tech, index) => <span key={index}>{tech}. </span>)}
+          <br></br>
+          <br></br>
+          <strong className="purple">Technos : </strong>
+          {props.techno &&
+            props.techno.map((tech, index) => (
+              <span key={index}>{tech}, </span>
+            ))}
         </Card.Text>
         <br></br>
 

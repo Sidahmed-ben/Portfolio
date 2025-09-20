@@ -6,14 +6,6 @@ function BackEnd() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <Icon
-          icon="fluent-mdl2:amazon-web-services-logo"
-          width="60"
-          height="60"
-        />
-        <p style={{ fontSize: "18px" }}> AWS</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <Icon icon="teenyicons:nodejs-solid" width="60" height="60" />
         <p style={{ fontSize: "18px" }}> Node js </p>
       </Col>
@@ -24,10 +16,6 @@ function BackEnd() {
       <Col xs={4} md={2} className="tech-icons">
         <Icon icon="simple-icons:nestjs" width="60" height="60" />
         <p style={{ fontSize: "18px" }}> Nest js </p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <Icon icon="simple-icons:flask" width="60" height="60" />
-        <p style={{ fontSize: "18px" }}> Flask API </p>
       </Col>
     </Row>
   );

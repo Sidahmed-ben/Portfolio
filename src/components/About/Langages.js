@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Icon } from "@iconify/react";
+
 function Langages() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>

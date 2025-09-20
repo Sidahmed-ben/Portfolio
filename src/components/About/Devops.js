@@ -16,6 +16,12 @@ function Devops() {
           Bitbucket <br></br>CI/CD
         </p>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <Icon icon="mdi:github" width="70" height="70" />
+        <p style={{ fontSize: "18px" }}>
+          GitHub <br></br>Actions
+        </p>
+      </Col>
     </Row>
   );
 }
